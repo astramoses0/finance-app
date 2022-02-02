@@ -1,16 +1,15 @@
 # finance_app
 
-A new Flutter project.
+**Ready-to-Develop Finance Application**
 
-## Getting Started
+## What Should I Do to Make the Code Work?
+First of all, you must open a **Firebase** Account and activate the **"Functions"** feature.
 
-This project is a starting point for a Flutter application.
+Create a **Stripe** Account.
 
-A few resources to get you started if this is your first Flutter project:
+Activate your Stripe account otherwise you will not receive your "pk_live" key and you will not be able to receive online payments.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+https://www.youtube.com/watch?v=b-43zM01ThQ&t=437s From this resource you will understand how to Activate and Use **Firebase Functions.**
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+After Doing All This, all you have to do is paste your "pk_live" key in the place I specified in main.dart and paste your Firebase Functions link in the place I specified in the makePPayment function in card.dart.
