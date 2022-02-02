@@ -5,6 +5,8 @@
 ## What Should I Do to Make the Code Work?
 First of all, you must open a **Firebase** Account and activate the **"Functions"** feature.
 
+**Enable Firebase Authentication and Firebase Cloud Firestore**
+
 Create a **Stripe** Account.
 
 Activate your Stripe account otherwise you will not receive your "pk_live" key and you will not be able to receive online payments.
